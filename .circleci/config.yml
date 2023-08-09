@@ -9,8 +9,14 @@ jobs:
     steps:
       - checkout
       - run:
-          name: OpenJDK 17
-          command: java -version
+          name: Install OpenJDK 17
+          command: sudo apt-get update && sudo apt-get install openjdk-17-jdk
+      - run:
+          name: Set Env JDK 17
+          command: sudo update-alternatives --set java /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+      - run:
+          name: Set Env JDK 17 2
+          command: sudo update-alternatives --set javac /usr/lib/jvm/java-17-openjdk-amd64/bin/javac
       - restore_cache:
           key: android-orb-v1-
       - run:
