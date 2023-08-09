@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Game Catalogue</string>
+    <string name="title_favorite">Favorite</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="platforms">Platforms</string>
+    <string name="genres">Genres</string>
+    <string name="age_rating">Age Rating</string>
+    <string name="metascore">Metascore</string>
+    <string name="rating">Rating</string>
+</resources>
