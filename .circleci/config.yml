@@ -4,6 +4,12 @@ orbs:
   android: circleci/android@2.3.0
 
 jobs:
+  change-java-version:
+    docker:
+      - image: cimg/openjdk:20.0.1
+    steps:
+      - checkout
+      - run: java --version
   build:
     executor:
       name: android/android-machine
@@ -11,6 +17,7 @@ jobs:
       tag: 2021.10.1
     steps:
       - checkout
+      - accept-licenses
       - restore_cache:
           key: android-orb-v1-
       - android/change-java-version:
