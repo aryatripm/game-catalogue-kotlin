@@ -8,9 +8,7 @@ jobs:
     executor:
       name: android/android-machine
       resource-class: large
-      tag: 2021.10.1
-    docker:
-      - image: cimg/openjdk:20.0.1
+      tag: 2023.07.1
     steps:
       - checkout
       - run: java --version
