@@ -13,7 +13,7 @@ buildscript {
     ext.room_version = "2.5.2"
     ext.retrofit_version = "2.9.0"
     ext.logging_interceptor_version = '4.9.0'
-    ext.hilt_version = '2.44'
+    ext.hilt_version = '2.42'
     ext.hilt_jetpack_version = '1.0.0-alpha03'
     ext.kotlin_coroutines_version = '1.6.1'
     ext.lifecycle_version = '2.6.1'
@@ -21,7 +21,7 @@ buildscript {
     ext.fragment_ktx_version = '1.6.0'
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.2.1'
+        classpath 'com.android.tools.build:gradle:8.0.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
 
