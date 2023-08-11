@@ -13,7 +13,7 @@ buildscript {
     ext.room_version = "2.5.2"
     ext.retrofit_version = "2.9.0"
     ext.logging_interceptor_version = '4.9.0'
-    ext.hilt_version = '2.42'
+    ext.hilt_version = '2.44'
     ext.hilt_jetpack_version = '1.0.0-alpha03'
     ext.kotlin_coroutines_version = '1.6.1'
     ext.lifecycle_version = '2.6.1'
