@@ -17,6 +17,7 @@ class RemoteDataSource @Inject constructor(private val apiService: ApiService) {
     suspend fun getAllGame(api: String): Flow<ApiResponse<List<GameResponse>>> {
         return flow {
             try {
+                Log.d("RemoteDataSource", api)
                 val response = apiService.getList(api)
                 val dataArray = response.results
                 if (dataArray.isNotEmpty()){

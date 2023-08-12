@@ -2,14 +2,12 @@ package com.arya.gamecatalogue.home
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.viewModels
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.recyclerview.widget.GridLayoutManager
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.arya.gamecatalogue.R
 import com.arya.gamecatalogue.core.data.Resource
 import com.arya.gamecatalogue.core.ui.GameAdapter
 import com.arya.gamecatalogue.databinding.FragmentHomeBinding

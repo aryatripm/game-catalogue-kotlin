@@ -3,5 +3,4 @@
     <string name="image_description">Image Description</string>
     <string name="text_primary">Sample of title text</string>
     <string name="text_subtitle">Sample of subtitle text</string>
-    <string name="format_genre">Genres: %1$s</string>
 </resources>

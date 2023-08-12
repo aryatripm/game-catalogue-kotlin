@@ -1,8 +1,8 @@
 package com.arya.gamecatalogue.detail
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.arya.gamecatalogue.R
 import com.arya.gamecatalogue.core.domain.model.Game
@@ -40,7 +40,6 @@ class DetailActivity : AppCompatActivity() {
             binding.tvDetailGenres.text = game.genres.joinToString(", ")
             binding.tvDetailEsrb.text = game.esrbRating
             binding.tvDetailMetacritic.text = game.metacritic.toString()
-            binding.tvDetailRating.text = game.rating.toString()
             Glide.with(this@DetailActivity)
                 .load(game.backgroundImage)
                 .into(binding.ivDetailImage)
